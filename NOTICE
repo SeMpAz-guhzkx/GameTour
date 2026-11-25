@@ -18,8 +18,5 @@ Third-party credits (reference code and integrations adapted into Game Tour)
 - Xiaomi Parts (th4rv4 and the duchamp device tree maintainers): thermal profile
   (sconfig) and charge-bypass behavior.
 - AxionOS: ax_platform_hooks (screenshot and screen record) and the framework game service.
-- LibreMobileOS / LMOFreeform: floating-window launching of the quick apps.
-- AlphaDroid: the ROM this app was developed and tested on.
-- Jetpack Compose / AndroidX / Kotlin (Google, JetBrains): UI and runtime, under their own licenses.
 
 If you believe a credit is missing or wrong, please open an issue and it will be fixed.
