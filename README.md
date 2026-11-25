@@ -4,7 +4,7 @@
 
 Hey! This is **Game Tour**, my game mode for custom Android ROMs. I made it, I keep changing it and I build it myself for my own **POCO X6 Pro / Redmi K70E (duchamp)** and I'm leaving it open so anyone can use it or port it to another ROM.
 
-I wanted a game mode that looks good and shows me what is really going on while I play: FPS, GPU, temperature, all on screen, and a panel I can pull out from the edge like Game Turbo. It replaces GameSpace on my ROM (AlphaDroid A16, Android 16). I make the changes, I compile it on my own server and I test everything on my own phone.
+I wanted a game mode that looks good and shows me what is really going on while I play: FPS, GPU, temperature, all on screen, and a panel I can pull out from the edge like Game Turbo. It replaces GameSpace in my builds of AlphaDroid A16 (Android 16). I make the changes, I compile it on my own server and I test everything on my own phone.
 
 > Heads up: it is **not** a normal app you install from an APK. It is a system app, signed with the platform key, so it only works built inside a ROM. Read [PORTING.md](PORTING.md) before you try it somewhere else.
 
@@ -55,7 +55,7 @@ Credits to the other projects I learned from and adapted parts of are in [NOTICE
 
 Fala, galera! Esse é o **Game Tour**, o meu modo jogo para ROM custom. Eu que fiz, eu continuo mexendo e eu mesmo compilo para o meu **POCO X6 Pro / Redmi K70E (duchamp)** e estou deixando aberto para quem quiser usar ou portar para outra ROM.
 
-Eu queria um modo jogo bonito e que mostrasse o que está acontecendo de verdade enquanto eu jogo: FPS, GPU, temperatura, tudo na tela, e um painel que abre puxando da borda, igual o Game Turbo. Ele substitui o GameSpace na minha ROM (AlphaDroid A16, Android 16). Eu faço as alterações, compilo no meu servidor e testo tudo no meu aparelho.
+Eu queria um modo jogo bonito e que mostrasse o que está acontecendo de verdade enquanto eu jogo: FPS, GPU, temperatura, tudo na tela, e um painel que abre puxando da borda, igual o Game Turbo. Ele substitui o GameSpace nas minhas compilações da AlphaDroid A16 (Android 16). Eu faço as alterações, compilo no meu servidor e testo tudo no meu aparelho.
 
 > Atenção: **não** é um app normal de instalar por APK. É app de sistema, assinado com a chave platform, então só funciona compilado dentro de uma ROM. Lê o [PORTING.md](PORTING.md) antes de tentar em outro lugar.
 
