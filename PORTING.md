@@ -7,7 +7,7 @@ Want to bring Game Tour to your own ROM? Cool, this is everything it expects fro
 ## 1. Where it was developed
 
 - Device: POCO X6 Pro / Redmi K70E (`duchamp`, MediaTek MT6897).
-- ROM: AlphaDroid A16 (Android 16, AOSP `bp4a`), built with `lunch <product>-bp4a-userdebug`.
+- ROM: AlphaDroid (AOSP `bp4a`), built with `lunch <product>-bp4a-userdebug`.
 - Package: `dev.sempaz.gametour` (rename it if you like, then update the manifest, privapp whitelist, sysconfig and `Android.bp`).
 
 ## 2. What the ROM must provide
@@ -36,7 +36,7 @@ All of them are read-only unless noted. If a node does not exist on your device 
 
 Notes learned on MT6897: `/proc/mtk_mali/gpu_utilization` is `0440 root:root`, so a system app cannot read it; `/sys/module/ged/parameters/gpu_loading` works.
 
-Frame time comes from `dumpsys SurfaceFlinger --timestats` (the older `--latency` is unusable on Android 16). FPS comes from `TaskFpsCallback` and needs `MANAGE_ACTIVITY_TASKS` and `ACCESS_FPS_COUNTER`.
+Frame time comes from `dumpsys SurfaceFlinger --timestats` (the older `--latency` is unusable on recent Android versions). FPS comes from `TaskFpsCallback` and needs `MANAGE_ACTIVITY_TASKS` and `ACCESS_FPS_COUNTER`.
 
 ## 4. SELinux
 
