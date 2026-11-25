@@ -1,6 +1,8 @@
 # Porting Game Tour to another ROM or device
 
-Game Tour is a privileged system app. It will not work as a normal user app: most features need system permissions, a platform signature and a few hooks from the ROM. This guide lists everything it expects.
+Want to bring Game Tour to your own ROM? Cool, this is everything it expects from the ROM, so you don't have to find out the hard way like I did. It is a privileged system app and it will not work as a normal user app: most features need system permissions, the platform signature and a few hooks from the ROM. If you get stuck, open an issue.
+
+(Português: este guia lista o que a ROM precisa ter para o Game Tour funcionar. Se travar, abre uma issue que eu ajudo.)
 
 ## 1. Where it was developed
 
