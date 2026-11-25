@@ -1,0 +1,18 @@
+# Game Tour - SELinux rules used on duchamp (MT6897). Adapt names to your vendor policy.
+# SPDX-License-Identifier: Apache-2.0
+
+# CPU usage (/proc/stat)
+allow system_app proc_stat:file r_file_perms;
+
+# Frame time: SurfaceFlinger TimeStats dump through binder
+allow system_app surfaceflinger_service:service_manager find;
+binder_call(system_app, surfaceflinger)
+
+# GPU clock (own type, see genfs_contexts)
+allow system_app sysfs_gametour_gpu:file r_file_perms;
+
+# GPU load fallback paths
+allow system_app proc:dir { search getattr };
+allow system_app proc_gametour_gpu:file r_file_perms;
+allow system_app sysfs_ged:dir search;
+allow system_app sysfs_ged:file r_file_perms;

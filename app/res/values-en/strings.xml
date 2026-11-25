@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Game Tour</string>
+    <string name="notif_channel">Game sessions</string>
+    <string name="notif_title">Session ended</string>
+</resources>

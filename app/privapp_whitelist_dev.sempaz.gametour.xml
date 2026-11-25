@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Game Tour - SPDX-License-Identifier: Apache-2.0
+-->
+<permissions>
+    <privapp-permissions package="dev.sempaz.gametour">
+        <permission name="android.permission.GET_TASKS" />
+        <permission name="android.permission.MANAGE_ACTIVITY_TASKS" />
+        <permission name="android.permission.INTERACT_ACROSS_USERS" />
+        <permission name="android.permission.MANAGE_GAME_MODE" />
+        <permission name="android.permission.QUERY_ALL_PACKAGES" />
+        <permission name="android.permission.READ_DEVICE_CONFIG" />
+        <permission name="android.permission.SYSTEM_ALERT_WINDOW" />
+        <permission name="android.permission.ACCESS_FPS_COUNTER" />
+        <permission name="android.permission.ANSWER_PHONE_CALLS" />
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.READ_PHONE_STATE" />
+        <permission name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+        <permission name="android.permission.BLUETOOTH_PRIVILEGED" />
+        <permission name="android.permission.MODIFY_AUDIO_ROUTING" />
+        <permission name="android.permission.MODIFY_DEFAULT_AUDIO_EFFECTS" />
+        <permission name="android.permission.PACKAGE_USAGE_STATS" />
+        <permission name="android.permission.DUMP" />
+        <permission name="android.permission.DELETE_CACHE_FILES" />
+        <permission name="android.permission.POST_NOTIFICATIONS" />
+        <permission name="android.permission.MANAGE_NOTIFICATION_LISTENERS" />
+        <permission name="android.permission.READ_CONTACTS" />
+        <permission name="android.permission.READ_CALL_LOG" />
+        <permission name="android.permission.READ_PHONE_NUMBERS" />
+        <permission name="com.libremobileos.permission.START_FREEFORM" />
+        <permission name="com.android.systemui.permission.SCREEN_RECORDING" />
+    </privapp-permissions>
+</permissions>

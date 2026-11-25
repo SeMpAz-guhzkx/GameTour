@@ -1,0 +1,58 @@
+//
+// Game Tour - sistema de jogo do POCO X6 Pro (duchamp)
+// SPDX-License-Identifier: Apache-2.0
+//
+
+android_app {
+    name: "GameTour",
+    platform_apis: true,
+    privileged: true,
+    system_ext_specific: true,
+    certificate: "platform",
+    manifest: "AndroidManifest.xml",
+    resource_dirs: ["res"],
+
+    srcs: ["java/**/*.kt"],
+
+    static_libs: [
+        "kotlin-stdlib",
+        "kotlinx-coroutines-android",
+        "kotlinx-coroutines-core",
+        "androidx.core_core-ktx",
+        "androidx.activity_activity-compose",
+        "androidx.compose.animation_animation-core",
+        "androidx.compose.foundation_foundation",
+        "androidx.compose.runtime_runtime",
+        "androidx.compose.ui_ui",
+        "androidx.compose.ui_ui-graphics",
+        "androidx.compose.material_material-icons-core",
+        "androidx.compose.material_material-icons-extended",
+        "androidx.lifecycle_lifecycle-runtime-compose",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "androidx.savedstate_savedstate",
+        "ax_platform_hooks",
+    ],
+
+    kotlincflags: [
+        "-Xjvm-default=all",
+        "-opt-in=kotlin.ExperimentalStdlibApi",
+        "-opt-in=kotlin.RequiresOptIn",
+        "-P plugin:androidx.compose.compiler.plugins.kotlin:sourceInformation=true",
+    ],
+
+    optimize: {
+        enabled: false,
+    },
+
+    required: [
+        "privapp_whitelist_dev.sempaz.gametour.xml",
+    ],
+}
+
+prebuilt_etc_xml {
+    name: "privapp_whitelist_dev.sempaz.gametour.xml",
+    src: "privapp_whitelist_dev.sempaz.gametour.xml",
+    system_ext_specific: true,
+    filename_from_src: true,
+    sub_dir: "permissions",
+}

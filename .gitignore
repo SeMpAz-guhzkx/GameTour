@@ -1,0 +1,5 @@
+*.apk
+*.zip
+.idea/
+build/
+local.properties

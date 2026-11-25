@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Game Tour - SPDX-License-Identifier: Apache-2.0
+  Instala o Game Tour no usuário principal e nos perfis de trabalho (não no clone).
+-->
+<config>
+    <install-in-user-type package="dev.sempaz.gametour">
+        <install-in user-type="FULL" />
+        <install-in user-type="PROFILE" />
+        <do-not-install-in user-type="android.os.usertype.profile.CLONE" />
+    </install-in-user-type>
+</config>
